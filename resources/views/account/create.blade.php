@@ -1,6 +1,6 @@
 @extends('template.master')
 
-@section('title')
+@section('judul')
   <h1>Ini halaman create</h1>
 @endsection
 

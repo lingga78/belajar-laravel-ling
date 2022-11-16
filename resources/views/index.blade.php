@@ -8,13 +8,12 @@
 
 @section('content')
 <div class="card">
-      <div class="card-header">
-
-        <h3 class="card-title">Halaman Data Table</h3>
-      </div>
-      <!-- /.card-header -->
-      <div class="card-body">
-        <table id="example1" class="table table-bordered table-striped">
+    <div class="card-header">
+        
+    <h3 class="card-title">Halaman Data Table</h3>
+    </div>
+    <div class="card-body">
+        <table id="data-tables" class="table table-bordered table-striped">
           <thead>
           <tr>
             <th>Rendering engine</th>
@@ -447,7 +446,7 @@
       <!-- /.card-body -->
     </div>
 </div>
-
+    
 @endsection
 
 @push('scripts')
@@ -455,8 +454,8 @@
     <script src="{{ asset('adminlte/plugins/datatables-bs4/js/dataTables.bootstrap4.js') }}"></script>
     <script>
         $(function () {
-            $("data-tables").DataTable();
+            $("#data-tables").DataTable();
         });
-     </script>
+    </script>
 @endpush
         
