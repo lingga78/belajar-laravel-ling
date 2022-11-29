@@ -22,7 +22,7 @@
                 <div class="card-body">
                   <div class="form-group">
                     <label for="inputNIS">Nomor Induk Siswa</label>
-                    <input type="text" name="nis" class="form-control" id="inputNIS" placeholder="Enter Nomor Induk Siswa">
+                    <input type="integer" name="nis" class="form-control" id="inputNIS" placeholder="Enter Nomor Induk Siswa">
                   </div>
                   <div class="form-group">
                     <label for="inputNama">Nama Siswa</label>
@@ -43,9 +43,8 @@
 
                 </div>
                 <!-- /.card.body -->
-
-                    
-                  <div class="card-footer">
+                
+                <div class="card-footer">
                   <button type="submit" class="btn btn-primary">Submit</button>
                 </div>
               </form>

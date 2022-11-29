@@ -21,11 +21,11 @@
                 @csrf
                 <div class="card-body">
                   <div class="form-group">
-                    <label for="inputId">Id</label>
-                    <input type="text" name="Id" class="form-control" id="inputId" placeholder="Enter Id">
+                    <label for="inputid">id</label>
+                    <input type="integer" name="id" class="form-control" id="inputid" placeholder="Enter id">
                   </div>
                   <div class="form-group">
-                    <label for="inputNama_Kelas">Nama Kelas</label>
+                    <label for="inputNamaKelas">Nama Kelas</label>
                     <input type="text" name="nama kelas" class="form-control" id="inputNamaKelas" placeholder="Enter Nama Kelas">
                     </div>
                     <div class="form-group">
@@ -37,9 +37,8 @@
 
                 </div>
                 <!-- /.card.body -->
-
-                    
-                  <div class="card-footer">
+                
+                <div class="card-footer">
                   <button type="submit" class="btn btn-primary">Submit</button>
                 </div>
               </form>

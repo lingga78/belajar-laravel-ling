@@ -58,3 +58,9 @@ Route::get('/account/show',
 Route::resource('student', SiswaController::class);
 
 Route::resource('class', KelasController::class);
+
+Route::get('/student', [SiswaController::class, 'index'])->name('indexStudent');
+Route::get('/student/create', [SiswaController::class, 'create'])->name('studentCreate');
+
+Route::get('/class', [KelasController::class, 'index'])->name('indexClass');
+Route::get('/class/create', [KelasController::class, 'create'])->name('classCreate');
